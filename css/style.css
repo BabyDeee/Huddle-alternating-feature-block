@@ -28,11 +28,12 @@ body{
 footer{
     background-color: hsl(192, 100%, 9%);
     color:  hsl(193, 100%, 96%);
+    height: 70vh;
 }
-.col-md-5 img{
+/* .col-md-5 img{
     filter: brightness(0);
     background: rgba(white, 0.5);
-}
+} */
 .postm{
     border-radius: 10px !important;
 }
@@ -55,6 +56,9 @@ footer{
     .btn-sta{
         width: 60% !important;
     }
+    footer{
+        height: 80vh;
+    }
 }
 @media (max-width: 426px){
     br{
@@ -73,6 +77,7 @@ footer{
     }
     footer{
         padding-top: 200px !important;
+        height: auto !important;
     }
     .navbar-brand{
         width: 50%;
