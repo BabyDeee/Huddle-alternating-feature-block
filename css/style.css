@@ -28,7 +28,6 @@ body{
 footer{
     background-color: hsl(192, 100%, 9%);
     color:  hsl(193, 100%, 96%);
-    height: 70vh;
 }
 /* .col-md-5 img{
     filter: brightness(0);
@@ -56,9 +55,6 @@ footer{
     .btn-sta{
         width: 60% !important;
     }
-    footer{
-        height: 80vh;
-    }
 }
 @media (max-width: 426px){
     br{
@@ -72,7 +68,7 @@ footer{
         /* height: 60px !important; */
     }
     .postm{
-        margin-bottom: 320px !important;
+        margin-bottom: 330px !important;
         width: 90% !important;
     }
     footer{
@@ -81,5 +77,8 @@ footer{
     }
     .navbar-brand{
         width: 50%;
+    }
+    .fot-row{
+        margin-top: 0 !important;
     }  
 }
